@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "d9480be2-3f44-47ce-b89e-86a570606d79",
+		"name": "Technical Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36305201"
+	},
+	"item": [
+		{
+			"name": "GET VentasPorDia/Fechas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/sales/day?start_date=2024-07-13&end_date=2024-07-15",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"sales",
+						"day"
+					],
+					"query": [
+						{
+							"key": "start_date",
+							"value": "2024-07-13"
+						},
+						{
+							"key": "end_date",
+							"value": "2024-07-15"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET VentasPorProducto/Categoria",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/sales/product?product_name=Widget-A&category=Widget",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"sales",
+						"product"
+					],
+					"query": [
+						{
+							"key": "product_name",
+							"value": "Widget-A"
+						},
+						{
+							"key": "category",
+							"value": "Widget"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET MetricasAgregadasCategoria",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/sales/category",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"sales",
+						"category"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
