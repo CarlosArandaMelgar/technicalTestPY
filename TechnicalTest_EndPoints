@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "d9480be2-3f44-47ce-b89e-86a570606d79",
+		"name": "Technical Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36305201"
+	},
+	"item": [
+		{
+			"name": "GET VentasPorDia/Fechas",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GET VentasPorProducto/Categoria",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GET MetricasAgregadasCategoria",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
